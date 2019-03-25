@@ -1,0 +1,102 @@
+*{margin: none; border: none;}
+body{min-width: 1300px; background: #696A6D url(./img/bg.jpg) no-repeat center center; background-size: cover;}
+body> main .wrapper{
+    margin: 200px auto 80px auto;
+    background: #5B5E61;
+    padding: 8px 0 0 8px;
+    max-width: 1130px;
+    border-radius: 16px;
+    box-shadow: 3px 10px 20px 0px rgba(11,11,34,0.5);
+}
+body> main .wrapper> div{text-align: center;}
+body> main .wrapper> div> kbd{
+    background: #212229;
+    color: #C1C4C8;
+    border-radius: 8px;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    position: relative;
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 70px;
+    font-size: 22px;
+    font-family: "Arial Rounded", Helvetica, Arial, sans-serif;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+kbd:active{top: 1px;box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5);}
+#q{text-transform: uppercase;}
+#w{text-transform: uppercase;}
+#e{text-transform: uppercase;}
+#r{text-transform: uppercase;}
+#t{text-transform: uppercase;}
+#y{text-transform: uppercase;}
+#u{text-transform: uppercase;}
+#i{text-transform: uppercase;}
+#o{text-transform: uppercase;}
+#p{text-transform: uppercase;}
+#a{text-transform: uppercase;}
+#s{text-transform: uppercase;}
+#d{text-transform: uppercase;}
+#f{text-transform: uppercase;}
+#g{text-transform: uppercase;}
+#h{text-transform: uppercase;}
+#j{text-transform: uppercase;}
+#k{text-transform: uppercase;}
+#l{text-transform: uppercase;}
+#z{text-transform: uppercase;}
+#x{text-transform: uppercase;}
+#c{text-transform: uppercase;}
+#v{text-transform: uppercase;}
+#b{text-transform: uppercase;}
+#n{text-transform: uppercase;}
+#m{text-transform: uppercase;}
+#delete{width: 88px; text-align: right; padding-right: 20px;font-size: 14px; line-height: 76px;}
+#tab{width: 88px; text-align: left; padding-left: 20px; font-size: 14px; line-height: 76px;}
+#中\/英{width: 108px; text-align: left; padding-left: 20px; font-size: 14px; line-height: 76px;}
+#return{width: 108px; text-align: right; padding-right: 20px; font-size: 14px; line-height: 76px;}
+#⇧\ shift{width: 147px; text-align: left; padding-left: 20px; font-size: 14px; line-height: 76px;}
+#shift\ ⇧{width: 147px; text-align: right; padding-right: 20px; font-size: 14px; line-height: 76px;}
+#fn{width: 50px; text-align: left; padding-left: 20px; font-size: 14px; line-height: 76px; height: 50px; padding-top:20px;}
+#control{font-size: 14px; line-height: 76px; height: 50px; padding-top:20px;}
+#option{font-size: 14px; line-height: 76px; height: 50px; padding-top:20px;}
+#command{width: 89px; font-size: 14px; line-height: 76px; height: 50px; padding-top:20px;}
+#\　{width: 382px; height: 50px; padding-top:20px;}
+#↑↓{height: 50px; padding-top:20px;}
+#←{height: 50px; padding-top:20px;}
+#→{height: 50px; padding-top:20px;}
+body> main .wrapper> div> kbd> button{position: absolute;right: 0;bottom: 0;display: none;}
+#q:hover> button{display: inline;}
+#w:hover> button{display: inline;}
+#e:hover> button{display: inline;}
+#r:hover> button{display: inline;}
+#t:hover> button{display: inline;}
+#y:hover> button{display: inline;}
+#u:hover> button{display: inline;}
+#i:hover> button{display: inline;}
+#o:hover> button{display: inline;}
+#p:hover> button{display: inline;}
+#a:hover> button{display: inline;}
+#s:hover> button{display: inline;}
+#d:hover> button{display: inline;}
+#f:hover> button{display: inline;}
+#g:hover> button{display: inline;}
+#h:hover> button{display: inline;}
+#j:hover> button{display: inline;}
+#k:hover> button{display: inline;}
+#l:hover> button{display: inline;}
+#z:hover> button{display: inline;}
+#x:hover> button{display: inline;}
+#c:hover> button{display: inline;}
+#v:hover> button{display: inline;}
+#b:hover> button{display: inline;}
+#n:hover> button{display: inline;}
+#m:hover> button{display: inline;}
+kbd> img{
+    width: 16px;
+    width: 16px;
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+}
