@@ -1,14 +1,15 @@
 *{margin: none; border: none;}
 body{min-width: 1300px; background: #696A6D url(./img/bg.jpg) no-repeat center center; background-size: cover;}
+body> main{height: 100vh; display: flex; justify-content: center; align-items: center;}
 body> main .wrapper{
-    margin: 200px auto 80px auto;
     background: #5B5E61;
     padding: 8px 0 0 8px;
     max-width: 1130px;
     border-radius: 16px;
     box-shadow: 3px 10px 20px 0px rgba(11,11,34,0.5);
+    position: center;
 }
-body> main .wrapper> div{text-align: center;}
+body> main .wrapper> div{text-align: center; margin: auto 0;}
 body> main .wrapper> div> kbd{
     background: #212229;
     color: #C1C4C8;
@@ -26,6 +27,7 @@ body> main .wrapper> div> kbd{
     cursor: pointer;
 }
 kbd:active{top: 1px;box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5);}
+
 #q{text-transform: uppercase;}
 #w{text-transform: uppercase;}
 #e{text-transform: uppercase;}
